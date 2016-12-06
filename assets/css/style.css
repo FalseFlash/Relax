@@ -1,0 +1,25 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+#player {
+	max-height: 1px;
+	max-width: 1px;
+}
+
+.icon-play:hover, .icon-stop:hover {
+	cursor: pointer;
+}
+
+.now-playing {
+	position:absolute;
+	top: 0;
+	left: 50%;
+	width: auto;
+	height: 0;
+	min-height: 0;
+	margin: 0 auto 0 -70px;
+	text-align: center;
+	padding: 0 10px 0 10px;
+}
